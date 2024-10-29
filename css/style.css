@@ -1,0 +1,177 @@
+body{
+    background-color: #f4f4f4;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.container{
+    background-color: #1f2937;
+    color: white;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    line-height: 1.6em;
+}
+.button{
+    height: 30px;
+    background-color: brown;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+.button:hover{
+    color:#1f2937;
+    font-weight: bold;
+}
+div .headersection{
+    display: flex;
+}
+div .headersection .navbar li{
+    box-sizing: border-box;
+}
+.navbar a:hover{
+    color: coral;
+}
+.navbar ul{
+    list-style: none;
+    padding: 0;
+}
+.navigation .navbar ul li{
+    display: inline;
+    text-align: center right;
+    padding-right: 0%;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.link{
+    color: #f4f4f4;
+    text-align: right;
+}
+div .herosection{
+    display: flex;
+}
+div #container-1{
+    display: flex;
+
+}
+#herosection{
+    display: flex;
+    background-color: #1f2937;
+    background-image: url('../images/hero\ \(1\).jpg');
+    background-position: center right;
+    background-position-x: 650px;
+    background-position-y: 1px;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    margin-bottom: 20px;
+    text-align:right center;
+    color:black;
+    width: 100%;
+}
+#herosection{
+    color: white;
+    text-align: center right;
+}
+.bodyhead{
+    color: black;
+    text-align: center right;
+}
+#container-1{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+#container-1 .box{
+    float:left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+#container-1 .box img{
+    width: 150px;
+}
+#explanation{
+    background-color: darkgray;
+    text-align: center;
+}
+#explain{
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.calltoaction{
+    background-color: #3882f6;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#main-footer{
+    background-color: #1f2937;
+    min-height: 60px;
+    
+}
+.footer{
+    text-align: center;
+    color: #f4f4f4;
+    
+}
+@media(max-width:600px){
+    .calltoaction{
+        width: 100%;
+        float: none;
+    }
+}
+@media(max-width:600px){
+    #explanation{
+        width: 100%;
+        float: none;
+    }
+}
+@media(max-width:600px){
+    #herosection{
+        width: 100%;
+        float: none;
+    }
+}
+@media(max-width:600px){
+    .navbar{
+        width: 100%;
+        float: none;
+    }
+}
+/*responsive....*/
+@media(max-width:768px){
+    .container .headersection,
+    nav.navbar, 
+    #herosection #herotext,
+    #herotext .button,
+    #container-1 .box{    
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    #herosection h1{
+        margin-top: 40px;
+    }
+    .form .button {
+        display: block;
+        width: 80%;
+    }
+    form input [type="search"]{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .calltoaction{
+        display: block;
+        width: 100%;  
+    }
+}
